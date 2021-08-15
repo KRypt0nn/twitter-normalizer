@@ -1,0 +1,55 @@
+:root
+{
+    --blue-primary: #1da1f2;
+    --blue-secondary: #64c3ff;
+    
+    --grey-primary: rgb(207, 217, 222);
+}
+
+/* normalized button / follow */
+
+.twitter-normalized-button
+{
+    background-color: white !important;
+    border: 1px solid var(--grey-primary);
+}
+
+.twitter-normalized-button > div > span > span
+{
+    color: black !important;
+}
+
+.twitter-normalized-button:hover
+{
+    background-color: var(--grey-primary) !important;
+}
+
+/* normalized button / following */
+
+.twitter-normalized-button-following
+{
+    background-color: var(--blue-primary) !important;
+    border: unset !important;
+}
+
+.twitter-normalized-button-following > div > span > span
+{
+    color: white !important;
+}
+
+.twitter-normalized-button-following:hover
+{
+    background-color: var(--blue-secondary) !important;
+}
+
+/* normalized navigation */
+
+.twitter-normalized-nav-link > div > div > svg
+{
+    color: var(--blue-primary);
+}
+
+.twitter-normalized-nav-link > div > div > span
+{
+    color: var(--blue-primary);
+}
